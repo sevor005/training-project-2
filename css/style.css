@@ -1,0 +1,186 @@
+html,body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+  width: 1400px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.layout {
+  min-height: 100%;
+}
+
+.layout:after {
+  content: "";
+  display: block;
+  height: 250px;
+}
+
+/* Header
+======================================================= */
+.header{
+  height: 230px;
+  width: 100%;
+  background: #dcdcdc;
+}
+
+.header-left {
+  width: 310px;
+  height: 130px;
+  margin-left: 161px;
+  margin-top: 65px;
+  float: left;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+  background: #767676;
+  float: left;
+}
+
+.header-name {
+  float: right;
+}
+
+.header-site-name {
+  font-size: 33px;
+  color: #7e7e7e;
+  font-weight: bold;
+  margin: 6px 0 0 113px;
+  line-height: 0.8;
+}
+
+.header-site-name-description {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin-top: 12px;
+  margin-left: 111px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-tel {
+  margin-right: 293px;
+  margin-top: 64px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #7e7e7e;
+  font-size: 38px;
+}
+
+.header-tel:last-child {
+  margin-top: 0;
+}
+
+/* Header-menu */
+
+.header-menu {
+  height: 80px;
+  background: #777777;
+  opacity: .9;
+}
+
+.header-menu-list {
+  height: 80px;
+  width: 1000px;
+  margin: 0 130px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 70px;
+  box-sizing: border-box;
+}
+
+.header-menu-item {
+  display: inline-block;
+  margin: 2px 20px;
+  /* padding: 0 15px; */
+  position: relative;
+}
+
+.header-menu-item:first-child {
+  margin-left: 0;
+}
+
+.header-menu-item:after {
+  content: "";
+  width: 2px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 24px;
+  right: -27px;
+  background:#fff;
+}
+
+.header-menu-item:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.header-menu-link:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  height: 462px;
+  width: 100%;
+  background-image: url(../img/banner.jpg);
+  margin-top: -62px;
+  margin-left: -47px;
+}
+
+/* Footer 
+===========================================================*/
+.footer {
+  height: 220px;
+  margin-top: -220px;
+  background: #767676;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
